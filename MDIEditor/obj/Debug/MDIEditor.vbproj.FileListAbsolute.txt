@@ -1,0 +1,14 @@
+E:\COMPUTER PROGRAMMER DURHAM COLLEGE\Semester 2\NETD\MDIEditor\MDIEditor\obj\Debug\MDIEditor.vbprojAssemblyReference.cache
+E:\COMPUTER PROGRAMMER DURHAM COLLEGE\Semester 2\NETD\MDIEditor\MDIEditor\obj\Debug\MDIEditor.frmCarInventory.resources
+E:\COMPUTER PROGRAMMER DURHAM COLLEGE\Semester 2\NETD\MDIEditor\MDIEditor\obj\Debug\MDIEditor.frmAverageUnitsShippedByEmployee.resources
+E:\COMPUTER PROGRAMMER DURHAM COLLEGE\Semester 2\NETD\MDIEditor\MDIEditor\obj\Debug\MDIEditor.frmMain.resources
+E:\COMPUTER PROGRAMMER DURHAM COLLEGE\Semester 2\NETD\MDIEditor\MDIEditor\obj\Debug\MDIEditor.Resources.resources
+E:\COMPUTER PROGRAMMER DURHAM COLLEGE\Semester 2\NETD\MDIEditor\MDIEditor\obj\Debug\MDIEditor.frmTextEditor.resources
+E:\COMPUTER PROGRAMMER DURHAM COLLEGE\Semester 2\NETD\MDIEditor\MDIEditor\obj\Debug\MDIEditor.vbproj.GenerateResource.cache
+E:\COMPUTER PROGRAMMER DURHAM COLLEGE\Semester 2\NETD\MDIEditor\MDIEditor\bin\Debug\MDIEditor.exe.config
+E:\COMPUTER PROGRAMMER DURHAM COLLEGE\Semester 2\NETD\MDIEditor\MDIEditor\bin\Debug\MDIEditor.exe
+E:\COMPUTER PROGRAMMER DURHAM COLLEGE\Semester 2\NETD\MDIEditor\MDIEditor\bin\Debug\MDIEditor.pdb
+E:\COMPUTER PROGRAMMER DURHAM COLLEGE\Semester 2\NETD\MDIEditor\MDIEditor\bin\Debug\MDIEditor.xml
+E:\COMPUTER PROGRAMMER DURHAM COLLEGE\Semester 2\NETD\MDIEditor\MDIEditor\obj\Debug\MDIEditor.exe
+E:\COMPUTER PROGRAMMER DURHAM COLLEGE\Semester 2\NETD\MDIEditor\MDIEditor\obj\Debug\MDIEditor.xml
+E:\COMPUTER PROGRAMMER DURHAM COLLEGE\Semester 2\NETD\MDIEditor\MDIEditor\obj\Debug\MDIEditor.pdb

@@ -1,0 +1,273 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MDIEditor
+</name>
+</assembly>
+<members>
+<member name="T:MDIEditor.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:MDIEditor.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:MDIEditor.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:MDIEditor.My.Resources.Resources.icons8_car_badge_50">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MDIEditor.My.Resources.Resources.icons8_new_file_50">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MDIEditor.My.Resources.Resources.icons8_open_file_under_cursor_50">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MDIEditor.My.Resources.Resources.icons8_save_50">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MDIEditor.My.Resources.Resources.icons8_save_as_50">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MDIEditor.My.Resources.Resources.icons8_shipped_50">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:MDIEditor.frmAverageUnitsShippedByEmployee.frmAverageUnitsShippedByEmployee_Load(System.Object,System.EventArgs)">
+ <summary>
+ When form loads, initilazing arrays of controls
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MDIEditor.frmAverageUnitsShippedByEmployee.btnExit_Click(System.Object,System.EventArgs)">
+ <summary>
+ Exit button code for closing the form
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MDIEditor.frmAverageUnitsShippedByEmployee.btnReset_Click(System.Object,System.EventArgs)">
+ <summary>
+ Code for reset button.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MDIEditor.frmAverageUnitsShippedByEmployee.btnEnter_Click(System.Object,System.EventArgs)">
+ <summary>
+ code for enter button. validate the user data and calculate averages
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MDIEditor.frmAverageUnitsShippedByEmployee.ClearControls(System.Windows.Forms.Control[])">
+ <summary>
+ Procedure to clear array of controls
+ </summary>
+ <param name="contrlArray"></param>
+</member>
+<member name="M:MDIEditor.frmAverageUnitsShippedByEmployee.SetDefaults">
+ <summary>
+ Sub procedure to reset the form
+ </summary>
+</member>
+<member name="M:MDIEditor.Car.#ctor">
+ <summary>
+ Default constructor to increase the car count
+ </summary>
+</member>
+<member name="M:MDIEditor.Car.#ctor(System.String,System.String,System.Int32,System.Decimal,System.Boolean)">
+ <summary>
+ Sets all private variable on arguments passed in
+ </summary>
+</member>
+<member name="P:MDIEditor.Car.Count">
+ <summary>
+ Returns the number of car objects
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MDIEditor.Car.Id">
+ <summary>
+ Returns the car's unique ID
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MDIEditor.Car.Make">
+ <summary>
+ Returns the manufacturer of car
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MDIEditor.Car.Model">
+ <summary>
+ Returns the model of the car
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MDIEditor.Car.Year">
+ <summary>
+ Returns the year of making of car
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MDIEditor.Car.Price">
+ <summary>
+ Returns the price of the car
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MDIEditor.Car.Status">
+ <summary>
+ Returns the status of car whether the car is new or old
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:MDIEditor.Car.GetCarData">
+ <summary>
+ returns a string describing the car
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:MDIEditor.frmCarInventory.btnReset_Click(System.Object,System.EventArgs)">
+ <summary>
+ Code for reset button to reset the form
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MDIEditor.frmCarInventory.btnEnter_Click(System.Object,System.EventArgs)">
+ <summary>
+ Code for Enter button to perform the actions
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MDIEditor.frmCarInventory.btnExit_Click(System.Object,System.EventArgs)">
+ <summary>
+ Code for exit button.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MDIEditor.frmCarInventory.lvwCarInventory_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+ Code for List view box when a car is selected from the box.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MDIEditor.frmCarInventory.lvwCarInventory_ItemCheck(System.Object,System.Windows.Forms.ItemCheckEventArgs)">
+ <summary>
+ Disaalows user to uncheck or check the box in list view.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MDIEditor.frmCarInventory.SetDefaults">
+ <summary>
+ Funtion to set the form to its default values.
+ </summary>
+</member>
+<member name="M:MDIEditor.frmCarInventory.IsValidInput">
+ <summary>
+ Funtion to check the values entered by user are correct or not
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:MDIEditor.frmCarInventory.PopulateList">
+ <summary>
+ This populates and clears the list of my form 
+ </summary>
+</member>
+<member name="M:MDIEditor.frmMain.mnuHelpAbout_Click(System.Object,System.EventArgs)">
+ <summary>
+ Whenever the About button in Help option is accessed show the information in a message box
+ </summary>
+</member>
+<member name="M:MDIEditor.frmTextEditor.frmTextEditor_Load(System.Object,System.EventArgs)">
+ <summary>
+ As soon as the form loads change the title of form
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MDIEditor.frmTextEditor.txtText_TextChanged(System.Object,System.EventArgs)">
+ <summary>
+ When there is changes in textbox set isEdited true and change the title text of form
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MDIEditor.frmTextEditor.FileNew">
+ <summary>
+ Whenever the new button in file option is accessed
+ </summary>
+</member>
+<member name="M:MDIEditor.frmTextEditor.FileOpen">
+ <summary>
+ Whenever the open button in file option is accessed
+ </summary>
+</member>
+<member name="M:MDIEditor.frmTextEditor.FileSaveAs">
+ <summary>
+ Whenever the save As button in file option is accessed
+ </summary>
+</member>
+<member name="M:MDIEditor.frmTextEditor.FileSave">
+ <summary>
+ Whenever the save button in file option is accessed
+ </summary>
+</member>
+<member name="M:MDIEditor.frmTextEditor.FileClose">
+ <summary>
+ Whenever the close button in file option is accessed
+ </summary>
+</member>
+<member name="M:MDIEditor.frmTextEditor.FileExit">
+ <summary>
+ Whenever the exit button in file option is accessed
+ </summary>
+</member>
+<member name="M:MDIEditor.frmTextEditor.EditCopy">
+ <summary>
+ Whenever the Copy button in Edit option is accessed
+ </summary>
+</member>
+<member name="M:MDIEditor.frmTextEditor.EditCut">
+ <summary>
+ Whenever the Cut button in Edit option is accessed
+ </summary>
+</member>
+<member name="M:MDIEditor.frmTextEditor.EditPaste">
+ <summary>
+ Whenever the Paste button in Edit option is accessed takes the content of clipboard and paste it into the text box
+ </summary>
+</member>
+<member name="M:MDIEditor.frmTextEditor.ConfirmClose">
+ <summary>
+ Sub procedure to confirm what user wants if the edited status is true
+ </summary>
+</member>
+</members>
+</doc>
